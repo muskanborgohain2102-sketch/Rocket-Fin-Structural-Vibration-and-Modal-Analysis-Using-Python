@@ -1,6 +1,6 @@
-TITLE
+TITLE <br>
 Rocket Fin Bending Vibration Analysis
-
+<br>
 Objective: Evaluate the dynamic response of a rocket fin subjected to aerodynamic and propulsion-induced excitation.
 
 Methodology: In this code, a fin has been modelled as a cantilevered beam using Euler-Bernoulli beam theory. Modal analysis was performed to determine the natural frequencies and mode shapes of the structure. The dynamic behaviour of the fin was further investigated through frequency response analysis and damped transient vibration simulations to evaluate resonance characteristics under aerodynamic and propulsion-induced vibration.
