@@ -28,32 +28,32 @@ A = Area of cross section of the beam, <br>
 
 
 Results:  <br>
-	Mode Shapes: The first five bending modes were successfully extracted, with the fundamental bending mode occurring at 109.67 Hz and higher modes occurring at progressively larger frequencies. <br>
-	FRF: Frequency response function showing resonance amplification and damping effects under harmonic excitation. <br> 
-	Transient Response: Time-domain damped free vibration response lasting for a duration of 300 milliseconds following an imposed maximum initial tip displacement of 1mm. <br>
-	Natural Frequencies: Calculated bending eigenfrequencies used to assess resonance susceptibility and structural dynamic performance. <br>
+1. Mode Shapes: The first five bending modes were successfully extracted, with the fundamental bending mode occurring at 109.67 Hz and higher modes occurring at progressively larger frequencies. <br>
+2. FRF: Frequency response function showing resonance amplification and damping effects under harmonic excitation. <br> 
+3. Transient Response: Time-domain damped free vibration response lasting for a duration of 300 milliseconds following an imposed maximum initial tip displacement of 1mm. <br>
+4. Natural Frequencies: Calculated bending eigenfrequencies used to assess resonance susceptibility and structural dynamic performance. <br>
 
 Engineering Findings: <br>
-	First natural frequency = 109.67Hz <br>
-	Forced response identified at 98.7Hz, close to the first natural frequency of 109.67 Hz, demonstrating the sensitivity of the structure to resonance excitation. <br>
-	Maximum tip displacement = 4.508mm <br>
-	The first bending mode dominated the dynamic response, while higher-order modes exhibited reduced contribution to overall tip displacement under typical vibration conditions. <br>
+	1. First natural frequency = 109.67Hz <br>
+	2. Forced response identified at 98.7Hz, close to the first natural frequency of 109.67 Hz, demonstrating the sensitivity of the structure to resonance excitation. <br>
+	3. Maximum tip displacement = 4.508mm <br>
+	4. The first bending mode dominated the dynamic response, while higher-order modes exhibited reduced contribution to overall tip displacement under typical vibration conditions. <br>
 
 Conclusion: <br>
-	Developed a computational structural dynamics model to analyze bending vibration characteristics of rocket fin structures using Python, NumPy, SciPy, and Matplotlib. <br>
-	Implemented cantilever beam modal analysis to calculate natural frequencies, mode shapes, transient response, and forced harmonic vibration behavior. <br>
-	Simulated damped and forced vibrational response using modal superposition techniques and frequency response functions relevant to aerospace structural resonance analysis. <br> 
-	Generated engineering visualizations including mode shapes, frequency response plots, transient vibration decay, and resonance characteristics for structural dynamic assessment. <br>
+	1. Developed a computational structural dynamics model to analyze bending vibration characteristics of rocket fin structures using Python, NumPy, SciPy, and Matplotlib. <br>
+	2. Implemented cantilever beam modal analysis to calculate natural frequencies, mode shapes, transient response, and forced harmonic vibration behavior. <br>
+	3. Simulated damped and forced vibrational response using modal superposition techniques and frequency response functions relevant to aerospace structural resonance analysis. <br> 
+	4. Generated engineering visualizations including mode shapes, frequency response plots, transient vibration decay, and resonance characteristics for structural dynamic assessment. <br>
 
 Engineering Significance: <br>
 Rocket fins are subjected to aerodynamic forcing, engine-induced vibration, and transient loading throughout flight. If excitation frequencies approach the natural frequencies of the fin, resonance may result in excessive vibration amplitudes and potential structural failure. The present study demonstrates how modal analysis and frequency response techniques can be used during preliminary design stages to identify critical frequencies and evaluate the effectiveness of structural damping. <br>
 
 Future Work: <br>
-	Validation using FEA modal analysis in ANSYS. <br>
-	Investigation of carbon-fibre reinforced composite fins under similar loading conditions. <br>
-	Comparative study of Aluminium and Composite Fin configurations dynamic performance. <br>
-	Investigation of the interaction of aeroelastic coupling with aerodynamic loading. <br>
-	Structural optimization for minimum mass and maximum stiffness. <br>
-	Extension to transient launch and propulsion-induced loading environments. <br>
+1. Validation using FEA modal analysis in ANSYS. <br>
+2. Investigation of carbon-fibre reinforced composite fins under similar loading conditions. <br>
+3. Comparative study of Aluminium and Composite Fin configurations dynamic performance. <br>
+4. Investigation of the interaction of aeroelastic coupling with aerodynamic loading. <br>
+5. Structural optimization for minimum mass and maximum stiffness. <br>
+6. Extension to transient launch and propulsion-induced loading environments. <br>
 
 Key skills demonstrated: Structural dynamics, modal analysis, numerical methods, scientific computing (Python), aerospace structures, vibration analysis, engineering data visualization. <br>
