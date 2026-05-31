@@ -4,14 +4,16 @@ Rocket Fin Bending Vibration Analysis <br>
 Objective: Evaluate the dynamic response of a rocket fin subjected to aerodynamic and propulsion-induced excitation. <br>
 
 Methodology: In this code, a fin has been modelled as a cantilevered beam using Euler-Bernoulli beam theory. Modal analysis was performed to determine the natural frequencies and mode shapes of the structure. The dynamic behaviour of the fin was further investigated through frequency response analysis and damped transient vibration simulations to evaluate resonance characteristics under aerodynamic and propulsion-induced vibration. <br>
+
 Software used are Python, NumPy, SciPy and Matplotlib. <br>
+
 Fin Properties: <br>
 	Length:          150.0 mm <br>
-	Chord:           80.0 mm
-	Thickness:       3.0 mm
-	Material:        Aluminum (ρ = 2700 kg/m³, E = 70 GPa)
-	Second moment I: 1.800e-10 m⁴
-	Mass per length: 0.648 kg/m
+	Chord:           80.0 mm <br>
+	Thickness:       3.0 mm <br>
+	Material:        Aluminum (ρ = 2700 kg/m³, E = 70 GPa) <br>
+	Second moment I: 1.800e-10 m⁴ <br>
+	Mass per length: 0.648 kg/m <br>
 
 Governing Equation:
 The code is based on Euler-Bernoulli beam theory:
